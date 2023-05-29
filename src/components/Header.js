@@ -1,4 +1,5 @@
 import React from "react";
+// import ReactDOM from 'react-dom'
 import logo from '../logo/airbnb-logo.png'
 
 
@@ -14,14 +15,14 @@ function Header () {
        <p className='p'>any week</p>
        <span></span>
        <p>add guests</p>
-       <i class='fa-solid search-icon fa-magnifying-glass'></i>
+       <i className='fa-solid search-icon fa-magnifying-glass'></i>
      </div>
      <div className='profile-section'>
        <p>airbnb your home</p>
-       <i class='fa-solid fa-globe'></i>
+       <i className='fa-solid fa-globe'></i>
        <div className='profile-menu'>
-         <i class='fa-solid fa-bars'></i>
-         <i class='fa-solid fa-user'></i>
+         <i className='fa-solid fa-bars'></i>
+         <i className='fa-solid fa-user'></i>
        </div>
      </div>
    </div>
