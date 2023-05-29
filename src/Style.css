@@ -20,10 +20,11 @@
  align-items: center;
  justify-content: center;
  gap: 1em;
- border: 1px solid #c5c5c5;
+ border: 1px solid #DDDDDD;
  padding: 5px 6px;
  border-radius: 25px;
  text-transform: capitalize;
+ box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 5px;
 }
 
 .search-section .p , .profile-section p {
@@ -31,10 +32,14 @@
 font-weight: 600;
 }
 
+.search-section .p {
+ margin-left: 1em;
+}
+
 .search-section span {
- background-color: #c5c5c5;
+ background-color: #DDDDDD;;
  height: 20px;
- width: 2px
+ width: 1px
 }
 
 .profile-section {
@@ -67,7 +72,7 @@ margin-left: 1em;
  background-color: #717171;
  color: #FFFFFF;
  /* font-size: 1.5em; */
- padding: 10px;
+ padding: 8px;
  border-radius: 50%;
  
 }
