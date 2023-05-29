@@ -1,0 +1,73 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.header {
+ padding: 2rem;
+ width: 100%;
+ height: 80px;
+ background-color: #fff0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.search-section {
+ min-width: 300px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1em;
+ border: 1px solid #c5c5c5;
+ padding: 5px 6px;
+ border-radius: 25px;
+ text-transform: capitalize;
+}
+
+.search-section .p , .profile-section p {
+
+font-weight: 600;
+}
+
+.search-section span {
+ background-color: #c5c5c5;
+ height: 20px;
+ width: 2px
+}
+
+.profile-section {
+ display: flex;
+ align-items: center;
+ gap: 1em;
+ text-transform: capitalize;
+}
+
+.search-icon  {
+ margin-right: auto;
+ background-color: #ff385c;
+ padding: 10px;
+ border-radius: 50%;
+ color: #fff;
+}
+
+.profile-menu {
+ border: 1px solid #c5c5c5;
+ padding: 5px 6px;
+ border-radius: 25px;
+}
+
+.profile-menu > i {
+margin-left: 1em;
+/* font-size: 1.5em; */
+}
+
+.profile-menu > .fa-user {
+ background-color: #717171;
+ color: #FFFFFF;
+ /* font-size: 1.5em; */
+ padding: 10px;
+ border-radius: 50%;
+ 
+}
