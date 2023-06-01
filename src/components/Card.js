@@ -2,10 +2,11 @@ import React from 'react'
 
 function Card () {
  return (
-   <div>
-     <section className='Card-section'>
+   <div className='card-section'>
+     <section className='card'>
        <img
-         src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' width={400}
+         src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+         width={400}
          alt=''
        />
        <h4 className='location'>lonavla,india</h4>
