@@ -107,6 +107,7 @@ margin-left: 1em;
 /*Display Price Section*/
 
 .displayPrice-section {
+ margin-top: 1em;
  width: 100%;
  /* background-color: red; */
  display: flex;
@@ -115,7 +116,7 @@ margin-left: 1em;
 }
 
 .displayPrice {
- height: 80px;
+ height: 70px;
  /* background-color: blue; */
  width: 700px;
  display: flex;
@@ -135,4 +136,27 @@ margin-left: 1em;
  background-color: #DDDDDD;;
  height: 20px;
  width: 1px
+}
+
+.toggle {
+ background-color: #DDDDDD;
+ /* padding: 1em; */
+ height: 35px;
+ width: 60px;
+ border-radius: 2em;
+ /* z-index: -1; */
+ position: relative;
+ display: flex;
+ padding: 5px;
+ /* justify-content: center; */
+ align-items: center;
+}
+
+.toggle-btn {
+ background-color: #fff;
+ border-radius: 50%;
+ height: 30px;
+ width: 30px;
+ position: absolute;
+ margin-right: auto;
 }
