@@ -103,3 +103,36 @@ margin-left: 1em;
 .filter-item i {
  font-size: 2em;
 }
+
+/*Display Price Section*/
+
+.displayPrice-section {
+ width: 100%;
+ /* background-color: red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.displayPrice {
+ height: 80px;
+ /* background-color: blue; */
+ width: 700px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: 1px solid #d0d0d0;
+ border-radius: 1em;
+ padding: 1em;
+}
+
+.displayPrice .left {
+ display: flex;
+ gap: 1em;
+}
+
+.displayPrice span {
+ background-color: #DDDDDD;;
+ height: 20px;
+ width: 1px
+}
