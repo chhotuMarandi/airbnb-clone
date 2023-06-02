@@ -5,6 +5,7 @@ import Filter from './components/Filter'
 import DisplayPrice from './components/DisplayPrice'
 import Card from './components/Card'
 import './Style.css'
+import CardSection from './components/CardSection'
 
 function App () {
  return (
@@ -13,7 +14,7 @@ function App () {
      <div className='rule'></div>
      <Filter />
      <DisplayPrice />
-     <Card />
+     <CardSection />
    </div>
  );
 }

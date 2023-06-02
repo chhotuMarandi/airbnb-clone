@@ -2,7 +2,6 @@ import React from 'react'
 
 function Card () {
  return (
-   <div className='card-section'>
      <section className='card'>
        <div className='image-section'>
          <img
@@ -17,7 +16,6 @@ function Card () {
        <p className='price'>₹9600</p>
        <p>night</p>
      </section>
-   </div>
  );
 }
 
