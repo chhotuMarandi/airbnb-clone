@@ -35,6 +35,51 @@ const data = [
     date: "1 apr - 5 apr",
     price: "₹8600",
   },
+  {
+    id: 5,
+    image:
+      "https://images.pexels.com/photos/261108/pexels-photo-261108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    location: "Jaipur, India",
+    distance: "18 kilometers away",
+    date: "1 Jun - 5 Jun",
+    price: "₹2100",
+  },
+  {
+    id: 6,
+    image:
+      "https://images.pexels.com/photos/1134175/pexels-photo-1134175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    location: "Goa, India",
+    distance: "18 kilometers away",
+    date: "21 Jul - 23 Jul",
+    price: "₹6100",
+  },
+  {
+    id: 7,
+    image:
+      "https://images.pexels.com/photos/7313084/pexels-photo-7313084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    location: "Goa, India",
+    distance: "18 kilometers away",
+    date: "21 Jul - 23 Jul",
+    price: "₹6100",
+  },
+  {
+    id: 8,
+    image:
+      "https://images.pexels.com/photos/14025040/pexels-photo-14025040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    location: "Goa, India",
+    distance: "24 kilometers away",
+    date: "1 Apr - 5 Apr",
+    price: "₹6600",
+  },
+  {
+    id: 9,
+    image:
+      "https://images.pexels.com/photos/1488327/pexels-photo-1488327.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    location: "Kerala, India",
+    distance: "65 kilometers away",
+    date: "5 Dec - 12 Dec",
+    price: "₹7800",
+  },
 ];
 
 export default data

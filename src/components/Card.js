@@ -12,7 +12,7 @@ function Card (props) {
       <p className='distance'>{props.distance}</p>
       <p className='date'>{props.date}</p>
        <p className='price'>{props.price}</p>
-       <p>night</p>
+       <p className='night'>night</p>
      </section>
  );
 }
