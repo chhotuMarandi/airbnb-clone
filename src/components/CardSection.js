@@ -1,16 +1,28 @@
 import React from "react";
 import Card from './Card'
+import data from './data.js'
+
+
+
 
 function CardSection() {
+
+  const cards = data.map((item) => {
+    return (
+      <Card
+        image={item.image}
+        location={item.location}
+        distance={item.distance}
+        date={item.date}
+        price={item.price}
+      />
+    );
+  })
+
+
   return (
     <div className='card-section'>
-      <Card
-        image='https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-        location='benglore,india'
-        distance='20km away'
-        date='12 jun'
-        price='$343'
-      />
+      {cards}
     </div>
   );
 }

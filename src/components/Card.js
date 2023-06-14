@@ -6,7 +6,7 @@ function Card (props) {
        <div className='image-section'>
          <img
            src= {props.image}/>
-         <i class='fa-regular fa-heart'></i>
+         <i className='fa-regular fa-heart'></i>
        </div>
        <h4 className='location'>{props.location}</h4>
       <p className='distance'>{props.distance}</p>
